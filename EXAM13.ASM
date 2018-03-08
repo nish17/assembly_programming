@@ -14,7 +14,7 @@ lea dx,var1
 mov ah, 09h
 int 21h
 
-mov dl,32
+mov dx,10
 mov ah,2
 int 21h
 
